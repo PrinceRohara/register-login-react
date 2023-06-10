@@ -83,6 +83,7 @@ export default function Login() {
                 </label>
                 <div className="flex flex-col items-start">
                   <input
+                    required
                     onChange={handleChange}
                     value={form.email}
                     type="email"
@@ -100,6 +101,7 @@ export default function Login() {
                 </label>
                 <div className="flex flex-col items-start">
                   <input
+                    required
                     onChange={handleChange}
                     value={form.password}
                     type="password"

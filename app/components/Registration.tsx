@@ -97,6 +97,7 @@ export default function Registration() {
               </label>
               <div className="flex flex-col items-start">
                 <input
+                  required
                   type="text"
                   onChange={handleChange}
                   name="username"
@@ -114,6 +115,7 @@ export default function Registration() {
               </label>
               <div className="flex flex-col items-start">
                 <input
+                  required
                   value={form.email}
                   onChange={handleChange}
                   type="email"
@@ -131,6 +133,7 @@ export default function Registration() {
               </label>
               <div className="flex flex-col items-start">
                 <input
+                  required
                   onChange={handleChange}
                   type="password"
                   name="password"
