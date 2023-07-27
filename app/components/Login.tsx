@@ -65,7 +65,7 @@ export default function Login() {
         <div className="flex flex-col items-center min-h-screen pt-6 sm:justify-center sm:pt-0 bg-gray-50">
           <div className="mb-4">
             <Image
-              src={`/logo.png`}
+              src={`https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg`}
               className="w-48"
               width={512}
               height={512}
